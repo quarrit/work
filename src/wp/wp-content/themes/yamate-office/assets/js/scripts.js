@@ -1,4 +1,4 @@
-import { mobilecheck, windowSize, getUrlVars } from 'app/global';
+import { mobilecheck, windowSize, getUrlVars } from 'app/globals';
 
 $(() => {
 

@@ -1,7 +1,5 @@
 
-import Backbone from 'backbone';
 import classie from 'classie';
-import AppRouter from 'app/router';
 
 function mobilecheck() {
 	let check = false;
@@ -49,16 +47,6 @@ function navigationMenu() {
 			TweenLite.to(nav, 0.4, { x: '0%', alpha: 1 });
 		}
 	});
-}
-
-function historyBack() {
-	let el = document.querySelector('.button--back-history');
-	el.addEventListener('click', (event) => {
-		event.preventDefault();
-
-		const router = new AppRouter();
-		router.previous();
-	})
 }
 
 function getUrlVars() {

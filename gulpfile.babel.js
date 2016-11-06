@@ -26,10 +26,10 @@ const $ = gulpLoadPlugins(),
 	functions = require('postcss-functions'),
 	base = 'html/wp/wp-content/themes/yamate-office',
 	baseAssets = base + '/assets',
-	src = 'src/wp',
+	src = 'src/wp', //retirer le wp
 	srcAssets = src + '/wp-content/themes/yamate-office/assets',
 	tmp = '.tmp/wp/wp-content/themes/yamate-office',
-	tmpAssets = '.tmp/wp-content/themes/yamate-office/assets',
+	tmpAssets = '.tmp/wp/wp-content/themes/yamate-office/assets',
 	banner = ['/**',
 		' * <%= pkg.name %> - <%= pkg.title %>',
 		' * @version v<%= pkg.version %>',
@@ -83,8 +83,8 @@ gulp.task('postcss', () => {
 		loadPaths: ['wp-content/themes/yamate-office/assets/images/']
 	})]))
 	//.pipe($.sourcemaps.write('.'))
-	.pipe($.header(banner, { pkg : pkg } ))
 	.pipe(gulp.dest(tmp))
+	.pipe($.header(banner, { pkg : pkg } ))
 	.pipe(gulp.dest(base))
 	//.pipe(create.stream({match: base + '/*.css'}));
 	.pipe(reload({stream: true}));
@@ -106,7 +106,7 @@ const testLintOptions = {
 	}
 };
 
-gulp.task('html', ['postcss'], () => {
+gulp.task('html', ['postcss', 'nunjucks'], () => {
 	const assets = $.useref.assets({searchPath: [tmp, src, '.']});
 
 	return gulp.src('.tmp/**/*.html')
@@ -154,7 +154,7 @@ gulp.task('nunjucks', () => {
 		}
 	}))
 	.pipe(nunjucksRender({
-		projectName: 'Sun Pedal'
+		projectName: 'Yamate Office'
 	}))
 	.pipe(gulp.dest('.tmp'));
 });
@@ -232,7 +232,7 @@ gulp.task('extras', () => {
 
 gulp.task('clean', del.bind(null, [tmp, 'html']));
 
-gulp.task('serve', ['postcss', 'fonts'], () => {
+gulp.task('serve', ['postcss', 'fonts', 'nunjucks'], () => {
 	browserSync({
 		notify: false,
 		port: 9000,
@@ -251,7 +251,7 @@ gulp.task('serve', ['postcss', 'fonts'], () => {
 		srcAssets + '/fonts/**/*'
 	]).on('change', reload);
 
-	//gulp.watch(src + '/template/**/*.nunjucks', ['nunjucks', reload]);
+	gulp.watch(src + '/template/**/*.nunjucks', ['nunjucks', reload]);
 	gulp.watch(srcAssets + '/js/**/*.js', ['webpack']);
 	gulp.watch(src + '/css/**/*.css', ['postcss']);
 	gulp.watch(srcAssets + '/fonts/**/*', ['fonts']);
