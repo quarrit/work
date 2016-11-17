@@ -16,7 +16,7 @@
 		</div>
 
 			<div class="about">
-				<p><strong class="about__title">「名参謀は会社を強くします」</strong></p><p class="about__text">    単なる会計事務所としての役割を超えたい。<br> 私たちは社長の右腕になることで企業の成長を支えま</p>
+				<p><strong class="about about__title">「名参謀は会社を強くします」</strong></p><p class="about about__text">    単なる会計事務所としての役割を超えたい。<br> 私たちは社長の右腕になることで企業の成長を支えま</p>
 			
 			<div class="about__imgs">
 				<div class="trapeze"><img src="wp-content/themes/yamate-office/assets/images/home/trapeze.png"></div>
@@ -31,41 +31,71 @@
 				<img src="wp-content/themes/yamate-office/assets/images/home/line.png" class="group6__line">
 				<span class="group6__logo"><img src="wp-content/themes/yamate-office/assets/images/home/logo.png"></span>
 				<div class="group6">
-				<p><strong class="group6__title">ＣＦＯアウトソーシング</strong></p>
+				<p><strong class="group6 group6__title">ＣＦＯアウトソーシング</strong></p>
 				<p>銀行対応・資金調達・Ｍ＆Ａ・資本政策・ＩＰＯなどに精通したCFOを低コストで銀行対応・資金調達・Ｍ＆Ａs・資本政策・ＩＰＯなどに</p>
 				<span class="group__arrow"><a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/yellowarrow.png"></a>
 				</span>
 				</div>
 			</div>
 			
+		<div class="newsbox">
+		<div class="news">
 
-
-			<div class="newscontent">
-				<div class="news"><img src="/wp-content/themes/yamate-office/assets/images/home/news1.png"></div>
-				<div class="news"><img src="/wp-content/themes/yamate-office/assets/images/home/news2.png"></div>
-				<div class="news"><img src="/wp-content/themes/yamate-office/assets/images/home/news3.png"></div>
-				<div class="news"><img src="/wp-content/themes/yamate-office/assets/images/home/news4.png"></div>
+			<div class="newsimgbox">
+			<img src="wp-content/themes/yamate-office/assets/images/home/news1.png" class="news__img">
 			</div>
-			
-			<div class="newsinfo">
-				<div class="news"><span class="news__title">BLABLA</span><br><span class ="news__date">2016-11-3</span><br><span class ="news__text">テクストテクストテクスト<br>テクストテクストテクストテクストテクストテクスト<br></span></div>
-				<div class="news"><span class="news__title">BLABLA</span><br><span class ="news__date">2016-11-3</span><br><span class ="news__text">テクストテクストテクスト<br>テクストテクストテクストテクストテクストテクスト<br></span></div>
-				<div class="news"><span class="news__title">BLABLA</span><br><span class ="news__date">2016-11-3</span><br><span class ="news__text">テクストテクストテクスト<br>テクストテクストテクストテクストテクストテクスト<br></span></div>
-				<div class="news"><span class="news__title">BLABLA</span><br><span class ="news__date">2016-11-3</span><br><span class ="news__text">テクストテクストテクスト<br>テクストテクストテクストテクストテクストテクスト<br></span></div>
+			<a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/yellowarrow.png" class="news__arrow"></a>
+			<div class="entry">
+			<div class="post__title">Webiste公開</div>
+			<div class="post__date">2016-04-05</div>
+			<div class="post__text">テクストテクストテクスト</div>
+		</div>
+
+
+	</div>
+	<div class="news">
+
+		<div class="newsimgbox">
+			<img src="wp-content/themes/yamate-office/assets/images/home/news2.png" class="news__img">
 			</div>
-			
-			<div class="arrow__content">
-				<div class="news__yarrow"><a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/yellowarrow.png"></a></div>
-				<div class="news__yarrow"><a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/yellowarrow.png"></a></div>
-				<div class="news__yarrow"><a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/yellowarrow.png"></a></div>
-				<div class="news__yarrow"><a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/yellowarrow.png"></a></div>
+			<a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/yellowarrow.png" class="news__arrow"></a>
+			<div class="entry">
+			<div class="post__title">特集情報1</div>
+			<div class="post__date">2016-04-05</div>
+			<div class="post__text">テクストテクストテクスト</div>
+		</div>
+	</div>
+
+	<div class="news">
+
+		<div class="newsimgbox">
+			<img src="wp-content/themes/yamate-office/assets/images/home/news3.png" class="news__img">
 			</div>
+			<a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/yellowarrow.png" class="news__arrow"></a>
+			<div class="entry">
+			<div class="post__title">Webiste公開</div>
+			<div class="post__date">2016-04-05</div>
+			<div class="post__text">テクストテクストテクスト</div>
+		</div>
+	</div>
+
+<div class="news">
+
+	<div class="newsimgbox">
+	<img src="wp-content/themes/yamate-office/assets/images/home/news4.png" class="news__img">
+	</div>
+	<a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/yellowarrow.png" class="news__arrow"></a>
+	<div class="entry">
+	<div class="post__title">Webiste公開</div>
+	<div class="post__date">2016-04-05</div>
+	<div class="post__text">テクストテクストテクスト</div>
+	</div>
+</div>
+</div>
 
 
 
 
-
-			
 
 			<div class="news__button">
 			<p><a href="#">一覧はこちら <img src="/wp-content/themes/yamate-office/assets/images/home/news__arrow.png"></a></p>
@@ -94,7 +124,7 @@
 			<article class="article--books">
 				<div class="article__title">BOOKS</div>
 				<div class="article__subtitle">bla</div>
-				<h3 class="artcile__info">テクストテクスト<br>blablablablab<br></h3>
+				<h3 class="article__info">テクストテクスト<br>blablablablab<br></h3>
 				<p>テクストテクストテクスト<br>
 				テクストテクストテクストテクスト<br>
 				テクストテクストテクストテクスト</p>

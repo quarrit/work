@@ -24,6 +24,8 @@
 
 
 
+
+
 }
 
 .home__title{
@@ -55,23 +57,28 @@
 	z-index: 9999;
 	height: 450px;
 	padding-top: 140px;
-
-}
-.about__title{
+	
+	&__title{
+	background-color:transparent;
 	position: relative;
 	font-size: 2.5em;
 	padding-bottom: 50px;
 	margin-bottom: 32px;
 	z-index: 2;
+	}
 
-}
-
-.about__text{
+	&__text{
+	background-color: transparent;
 	position: absolute;
+	height: initial;
 	font-size: 1.1em;
 	margin-left: 35%;
 	padding-top: 10px;
 	z-index: 999;
+
+	}
+
+
 }
 
 .triangle{
@@ -116,11 +123,14 @@
 	max-width: 350px;
 	height: 400px;
 
-}
-.group6__title{
+	&__title{
 	background-color: white;
 	color: black;
 	font-size: 1.4em;
+	margin-left: initial;
+
+	}
+
 }
 
 .group6__logo{
@@ -140,81 +150,62 @@
 	float: right;
 }
 
-
-
-.newscontent{
+.newsbox{
 	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
 	width: 100%;
+	height: 450px;
+	background-color: white;
+	overflow: hidden;
 
-	
 }
 
 .news{
-	background-color: white;
-	color: black;
-	width:25%;
-	border-right:1px solid grey;
-	border-bottom: 1px solid grey;
-	
-
+	width: 25%;
+	border-top: solid 1px grey;
+	border-right:solid 1px grey;
+	border-bottom: solid 1px grey;
 }
 
 
-.newsinfo{
-	display: flex;
-	justify-content: space-between;
-	height: 250px;
+.news__arrow{
+		position: relative;
+		float: right;
+		top: -20px;
+
+	}
 
 
+.entry{
+	margin-top: 8%;
+	margin-left: 7%;
+	font-family: "Kozuka Gothic Pr6N"
 }
 
-.news__title{
-	display: inline-block;
-	font-size: 1.4em;
-	margin-top: 20px;
-	margin-left: 8px;
-	margin-bottom: 16px;
+.post__title{
+
+  font-size: 1.80em;
+  color: rgb(0, 0, 0);
+  line-height: 1.25;
+  z-index: 43;
 
 }
-.news__date{
-	display: inline-block;
-	font: 0.9em italic;
-	margin-left: 8px;
-	margin-bottom: 16px;
+.post__date{
+  font-size: 1em;
+  font-family: "FuturaStd";
+  font-style: italic;
+  color: rgb(0, 0, 0);
+  line-height: 2.222;
 }
+.post__text{
 
-.news__text{
-	display: inline-block;
-	margin-left: 8px;
-	margin-bottom: 16px;
-
-}
-
-.arrow__content{
-	display: flex;
-	justify-content: space-around;
-	position: absolute;
-	top:67.1%;
-	margin-left: 25.4%;
-	padding-right: 
-
-
-
-}
-.news__yarrow{
-	margin-left: 16%;
-	padding-right: 75px;
-
-
+  font-size: 18px;
+  font-family: "FuturaStd";
+  color: rgb(0, 0, 0);
+  line-height: 2.222;
 }
 
 
-.arrow{
-	position: relative;
-	top: ;
-}
+
 
 
 .news__button {
@@ -232,9 +223,7 @@
 	
 }
 
-.news__arrow{
 
-}
 
 .content {
 	position: relative;
@@ -383,6 +372,57 @@
 .otherlist li{
 	color: white;
 }
+
+@media screen and (max-width: 600px) {
+
+
+	.home__title{
+	font-family:"FuturaBT";
+	font-weight: bold;
+	position: absolute;
+	font-size: 4em;
+	text-align: justify;
+	top: 0;
+	margin-top: 15%;
+	margin-left: 15%;
+	font:bold;
+	
+}
+
+	.home__subtitle{
+	position: absolute;
+	font-size: 0.9em;
+	text-align: justify;
+	top: 0;
+	margin-top: 33%;
+	margin-left: 15%;
+	z-index: 5;
+
+}
+	.about{
+		font-size: 1.135em;
+		margin-left: initial;
+
+	}
+
+	.trapeze{
+		position: absolute;
+		top: 5%;
+
+	}
+	.news{
+    	width: 100%;
+    }
+    
+    .newsbox {
+    	display: flex;
+    	flex-direction: column;
+    	flex-wrap: nowrap;
+    }
+    
+
+}
+
 
 
 

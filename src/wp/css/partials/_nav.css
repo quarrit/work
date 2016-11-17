@@ -1,9 +1,13 @@
-
+ 
 .navigation{
 	position: relative;
 	top: 0; 
 	right: 0;
 	font-size: 1.4em;
+	font-family: "FuturaBT";
+	text-transform: uppercase;
+	line-height: 1.463;
+	z-index: 16;
 
 
 
