@@ -114,9 +114,9 @@
 				<div class="article__title">INTERVIEW</div>
 				<div class="article__subtitle">bla</div>
 				<h3 class="artcile__info">テクストテクスト<br>blablablablab<br></h3>
-				<p>テクストテクストテクスト<br>
+				<div class="article__text"><p>テクストテクストテクスト<br>
 				テクストテクストテクストテクスト<br>
-				テクストテクストテクストテクスト</p>
+				テクストテクストテクストテクスト</p></div>
 				<a href="/"><img src="wp-content/themes/yamate-office/assets/images/home/news2.png" class="article__img"></a>
 			<span class="yellowarrow--article"><a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/yellowarrow.png"></a></span>
 			</article>
@@ -125,9 +125,9 @@
 				<div class="article__title">BOOKS</div>
 				<div class="article__subtitle">bla</div>
 				<h3 class="article__info">テクストテクスト<br>blablablablab<br></h3>
-				<p>テクストテクストテクスト<br>
+				<div class="article__text"><p>テクストテクストテクスト<br>
 				テクストテクストテクストテクスト<br>
-				テクストテクストテクストテクスト</p>
+				テクストテクストテクストテクスト</p></div>
 				<a href="/"><img src="wp-content/themes/yamate-office/assets/images/home/article__img.png" class="book__img"></a>
 			<span class="yellowarrow--article"><a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/yellowarrow.png"></a>
 			</article>
@@ -139,7 +139,7 @@
 					<a href="/"><li>WEB TV</li></a>
 					<a href="/"><li>BLABLA</li></a>
 				</ul>
-				<p>blabla</p>
+				<div class="article__text"><p>blabla</p></div>
 			</article>
 		
 		</section>
