@@ -11,6 +11,7 @@
 .home__banner{
 	background-color: rgb(48,100,248);
 }
+
 .bgimg{
 	top: 0;
 	left: 0;
@@ -18,6 +19,7 @@
 	width: 100%;
 	z-index: 2;
 }
+
 .home__title{
 	font-family:"FuturaBT";
 	font-weight: bold;
@@ -30,6 +32,7 @@
 	font:bold;
 	z-index: 5;
 }
+
 .home__subtitle{
 	position: absolute;
 	font-size: 1.8em;
@@ -401,9 +404,11 @@ and (max-width : 800px){
 	&__title{
 	font-size: 1em;
 }
+}
 .group6__line{
 	width: 150px;
 }
+
 .news__button {
 	width:18%;
 	padding:initial;
@@ -415,6 +420,7 @@ and (max-width : 800px){
 .article{
 	margin-left: 10%;
 }
+
 .article--books{
 	margin-right: 10%;
 	top: 80%;

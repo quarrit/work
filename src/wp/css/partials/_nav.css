@@ -1,5 +1,4 @@
- 
-.navigation{
+ .navigation{
 	position: relative;
 	top: 0; 
 	right: 0;
@@ -7,7 +6,7 @@
 	font-family: "FuturaBT";
 	text-transform: uppercase;
 	line-height: 1.463;
-	z-index: 99;
+	z-index: 999;
 
 
 
@@ -19,16 +18,16 @@
 	background-color: #000;
 	padding: 8px;
 	float: right;
-	z-index: 99;
+	z-index: 999;
 }
 
 .navigation li a {
 	color: white;
-	z-index: 99;
+	z-index: 999;
 }
 
 .navigation--home {
- 
+ z-index: 999;
 }
 
 .navigation-trigger {
