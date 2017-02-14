@@ -1,37 +1,108 @@
+.pagetitle{
+	text-align: center;
+	font-size: 4em;
+}
+
+.customerpref{
+	margin-right: 1%;
+	float: right;
+}
+.searchbar{
+	margin-right: 1%;
+	float: right;
+}
+.deliverynews{
+	margin-top: 2%;
+	text-align:center;
+	height: 30px;
+	color: #ffffff;
+	background-color: #a6a9ad;
+	display: flex;
+}
+.deliverynews a{
+	color: #ffffff;
+}
+.delivery-condition{
+	padding-top: 4px;
+	background-color: #727375;
+	width: 30%;
+}
+.delivery-condition2{
+	padding-top: 4px;
+	padding-left: 5%;
+}
+
  .navigation{
 	position: relative;
-	top: 0; 
-	right: 0;
-	font-size: 1.1em;
-	font-family: "FuturaBT";
-	text-transform: uppercase;
-	line-height: 1.463;
-	z-index: 999;
+	top:; 
+	right:;
+	font-size:;
+	font-family:;
+	text-transform:;
+	line-height:;
+	z-index:;
 
 
 
 
 }
+.gender{
+	display: flex;
+	justify-content: space-around;
+}
+ul.drop-down{
+	display: none;
+}
+ul.drop-down li:hover{
+	text-decoration: line-through;
+}
+li{
+	list-style-type: none;
+}
+li:hover > ul.drop-down{
+	display: block;
+}
+li:hover > ul.drop-down li{
 
+	opacity: 0;
+	animation: mymove 500ms;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+@keyframes mymove{
+	0%{
+		opacity:0;
+		transform: rotateY(-90deg);
+
+		}
+	100%{
+		opacity:1;
+		transform: rotateY(0deg);
+	}
+}
+.drop-down li{
+	font-size: 1.5em;
+	margin-left: 20%;
+}
 .navigation li{
 
-	background-color: #000;
-	padding: 8px;
-	float: right;
-	z-index: 999;
+	background-color:;
+	padding:;
+	float:;
+	z-index:;
 }
 
 .navigation li a {
-	color: white;
-	z-index: 999;
+	color:;
+	z-index:;
 }
 
 .navigation--home {
- z-index: 999;
+ z-index:;
 }
 
-.navigation-trigger {
-	position: fixed;
+.navigation-trigger. {
+	position:;
 	top: 10px;
 	right: 1em;
 	width: 2.333em;
@@ -63,7 +134,7 @@
 	}
 
 .side-nav {
-	position: fixed;
+	position:;
 	bottom: 1.25em;
 	left: 0;
 	padding-left: 3.667em;
@@ -90,9 +161,3 @@
 		margin-bottom: 1em;
 	}
 }
-
-.envellop{
-	background-color: white;
-	max-height: 20px;
-}
-

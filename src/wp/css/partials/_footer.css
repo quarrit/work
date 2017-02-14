@@ -1,69 +1,101 @@
-.contentfooter{background-color: #e2e4e2;
+.contentfooter{
+	margin-left:10%; 
+	margin-right:10%;
+	margin-top: 50px;
+	margin-bottom: 50px;
 
 }
-.footerbox {
-	font-family: "Kozuka Gothic Pr6N";
-	margin-top: 32px;
-	padding-top:;
-	display: flex;
+
+.sns{
 	justify-content: space-around;
-	height: 300px;
-	margin-right: 10%;
-	
-	
+	display: flex;
 }
-.footer__title{
-	font-size: 1.1em;
-	line-height: 30px;
-	position: relative;
-	top: -25px;
+.customerservices{
+	padding-top: 50px;
+	margin-top: 50px;
+	border-top: 1px solid black;
+	display: flex;
+	margin-bottom: 50px;
+	padding-bottom: 50px;
+	border-bottom: 1px solid black;
 }
-.shape_5 {
-  background-color: rgb(5, 58, 202);
-  position: relative;
-  left: 200px;
-  top: -200px;
-  width: 70%;
-  height: 2px;
-  z-index: 129;
-  
+
+.customerservices p{
+	font-size: 1.4em;
+	color: black;
+}
+
+.newsletterbox{
+	width:50%;
+	font-family: "minimal";
+	padding-bottom: 16px;
+	border:1px solid #a6a6a6 ;
+	padding-top: 16px;
+	text-align: center;
+}
+.customerservices button{
+	width: 80px;
+	margin-top: 4px;
+	color: black;
+	font-size: 1.5em;
+	background-color: #a6a6a6;
+	border-radius: 4px;
+}
+.customerservices button:hover{
+	color: white;
+	background-color: black;
+}
+
+.inquiry{
+	width:50%;
+	font-family: "minimal";
+	padding-bottom: 16px;
+	border:1px solid #a6a6a6 ;
+	padding-top: 16px;
+	text-align: center;
+}
+.inquiry a:hover{
+	color: black;
+	text-decoration: line-through;
+
+}
+ul.drop{
+	display: none;
+}
+ul.drop li:hover{
+	text-decoration: line-through;
+}
+li{
+	list-style-type: none;
+}
+li:hover > ul.drop{
+	display: block;
+}
+li:hover > ul.drop li{
+
+	opacity: 0;
+	animation: mymove 500ms;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: forwards;
+}
+@keyframes mymove{
+	0%{
+		opacity:0;
+		transform: rotateY(-90deg);
+
+		}
+	100%{
+		opacity:1;
+		transform: rotateY(0deg);
+	}
 }
 
 .copyright{
-	font-size: 0.8em;
-	text-align: center;
-	color: rgb(0, 0, 0);
+	margin-top: 33px;
+	font-size:0.5em;
+	text-align:center;
+	color:;
 
 }
 
-.sns__entry{
-	display: flex;
-	justify-content: space-around;
-	margin-top: 8px;
 
-}
-
-@media only screen 
-and (min-width : 1920px){
-.shape_5{
-	position: relative;
-  left: 280px;
-  top: -160px;
-
-}
-}
-@media only screen 
-and (max-width : 800px){
-.contentfooter{
-	height: 250px;
-}
-.footerbox{
-
-	padding-top: 50px;
-}
-.shape_5{
-	width: 640px;
-	left: 80px;
-	top: -200px;
-}
-}

@@ -52,15 +52,59 @@
 		<header class="header" id="header" role="banner">
 			
 			<!-- <a href="" class="navigation-trigger js-navigation-trigger" id="navigation-trigger"><i></i></a> -->
+			<div class="pagetitle">
+			JUPITERJAZZ
+			</div>
+			
+			<div class="customerpref">
+				<a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/user.png"></a>
+				<a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/star.png"></a>
+				<a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/basket.png"></a>
+			</div><br><br>
+			<div class="searchbar">
+				<input type="search" name="search" placeholder="Search.." class="search">
+				<img src="wp-content/themes/yamate-office/assets/images/common/search.png">
+			</div>
+			<br>
+
+			<div class="gender">
+				<li class="gender-li"><h1>Men</h1>
+					<ul class="drop-down">
+						<a href="/"><li>Shirts</li></a>
+						<a href="/"><li>Coat</li></a>
+						<a href="/"><li>Polo</li></a>
+						<a href="/"><li>Shoes</li></a>
+					</ul>
+				</li>
+				<li class="gender-li"><h1>Women</h1>
+					<ul class="drop-down">
+						<a href="/"><li>Shirts</li></a>
+						<a href="/"><li>Coat</li></a>
+						<a href="/"><li>Dress</li></a>
+						<a href="/"><li>Shoes</li></a>
+					</ul>
+				</li>
+			</div>
+
+			<div class="deliverynews">
+				<div class="delivery-condition">
+					<a href="/">FREE EXPRESS DELIVERY</a>
+				</div>
+				<div class="delivery-condition2">
+					<a href="/">WORLDWIDE DELIVERY NOW AVAILABLE</a>
+				</div>
+			
+			</div>
+
+
+
+			
+
 
 			<nav class="navigation" id="navigation" role="navigation">
 				
 				<ul class="clear">
-					<li><a href="//" class="envellop"><img src="/wp-content/themes/yamate-office/assets/images/common/env.png"></li>
-					<li><a href="/about">About</a></li>
-					<li><a href="/services">Services</li>
-					<li><a href="/q&a">Q&amp;A</a></li>
-					<li><a href="/access">Access</a></li>
+
 				</ul>
 			</nav>
 		</header>
@@ -75,36 +119,48 @@
 		</div>
 
 		<footer class="contentfooter">
-	<div class="footerbox">
-		<div class="entry">
-			<div class="footer__title">PARTNER</div>
-			<div class="footer__entry">
-				<div class=""><a href="/">テクスト</a></div>
-				<div class=""><a href="/">テクスト</a></div>
-				<div class=""><a href="/">テクスト</a></div>
+
+			<div class="customerservices">
+				<div class="newsletterbox">
+					<p>NEWSLETTER SIGN UP</p>
+						<input type="email" name="email">
+						<li class="news-gender"><p>Please select a gender</p>
+							<ul class="drop">
+								<li><input type="checkbox" name="gender"> MALE</li>
+								<li><input type="checkbox" name="gender"> FEMALE</li>
+								</ul>
+						</li>
+					<button>Register</button>
+				</div>
+				<div class="inquiry">
+					<p>CUSTOMER SERVICES</p>
+					<div class="contact-link">
+						<a href="/">DELIVERY</a><br>
+						<a href="/">PRIVACY POLICY</a><br>
+						<a href="/">SIZE GUIDE</a><br>
+						<a href="/">FIND A STORE</a><br>
+						<a href="/">CONTACT US</a><br>
+					</div>
+				</div>
+
 			</div>
-		</div>
-		<div class="entry">
-			<div class="footer__title">INFOS</div>
-			<div class="footer__entry">
-				<div class=""><a href="/">INFOS</a></div>
-				<div class=""><a href="/">INFOS</a></div>
-				<div class=""><a href="/">INFOS</a></div>
-			</div>
-		</div>
-		<div class="entry">
-			<div class="footer__title">FOLLOW US ON</div>
-			<div class="sns__entry">
-				<div class=""><a href="/"><img src="/wp-content/themes/yamate-office/assets/images/common/insta.png" class="sns"></a></div>
-				<div class=""><a href="/"><img src="/wp-content/themes/yamate-office/assets/images/common/facebook.png" class="sns"></a></div>
-				<div class=""><a href="/"><img src="/wp-content/themes/yamate-office/assets/images/common/twitter.png" class="sns"></a></div>
+
+			<div class="sns">
+				<div class="sns-entry"><a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/fb.png"></a>
+				</div>
+				<div class="sns-entry"><a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/insta.png"></a>
+				</div>
+				<div class="sns-entry"><a href="/"><img src="wp-content/themes/yamate-office/assets/images/common/twit.png"></a>
+				</div>
 			</div>
 			
-		</div>
+			
+			
+			
 
-	</div>
-	<div class="copyright">Copyright © 2016 All rights reserved</div>
-		<div class="shape_5"></div>
+			<div class="copyright">
+				© 2016 JupiterJazz All Rights Reserved.
+			</div>
 		</footer>
 		
 
